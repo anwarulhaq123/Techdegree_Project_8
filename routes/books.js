@@ -109,6 +109,7 @@ router.post(
     const book = await Book.findByPk(req.params.id);
     await book.destroy();
     res.redirect("/books");
+    res.redirect("/delete");
   })
 );
 
