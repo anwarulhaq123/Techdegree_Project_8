@@ -13,6 +13,10 @@ function asyncHandler(cb) {
   };
 }
 
+// To render the errors.pug.
+var createError = require("http-errors");
+
+
 //Main books index page
 
 router.get("/", function (req, res, next) {
