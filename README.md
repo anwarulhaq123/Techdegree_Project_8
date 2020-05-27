@@ -14,25 +14,40 @@ I initilize the project from command line and create the "package.json"file. Whi
 Dependencies
 
 "cookie-parser": "~1.4.4",
+
     "debug": "~2.6.9",
+    
     "express": "^4.17.1",
+    
     "http-errors": "^1.6.3",
+    
     "moment": "^2.24.0",
+    
     "morgan": "~1.9.1",
+    
     "nodemon": "^1.19.2",
+    
     "pug": "^2.0.4",
+    
     "sequelize": "^5.18.4",
+    
     "sequelize-cli": "^5.5.1",
+    
     "sqlite3": "^4.1.0"
 are the dependenccies of the project.
 
 Following are the views or Pug files of the project.
 
 layout.pug
+
 new-book.pug
+
 update-book.pug
+
 error.pug
+
 errors.pug
+
 page-no-found.pug
 
 
